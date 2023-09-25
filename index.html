@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+
+    <!-- icon -->
+    <link rel="icon" href="inages/512x512bb-removebg-preview.png" >
+
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- javascript cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+
+    
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav id="container" class="navbar navbar-expand-lg bg-body-tertiary nav-tabs navbar-nav-scroll px-3 mb-3">
+  <div class="container-fluid">
+    <img id="img1" class="pe-2" src="./inages/512x512bb-removebg-preview.png" alt="">
+  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+  <h1>FOOD<span class="text-warning">BEE</span></h1>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between justify-content-lg-end pe-4" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+        <a class="nav-link" href="#menu">MENU</a>
+        <a class="nav-link" href="#details">DETAILS</a>
+        <a class="nav-link"href="#about">ABOUT</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- home -->
+<section id="home">
+    <div id="homeimgs" class="container-fluid mb-5">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://images.creativemarket.com/0.1.0/ps/8086981/1170/780/m1/fpnw/wm0/screenshot-01-.jpg?1586234462&s=2267f186d60fc3a88606a080876cec3f" class="d-block w-100 object-fit-cover" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.posist.com/restaurant-times/wp-content/uploads/2021/11/The-Technological-Aspects-Of-Setting-Up-A-Cloud-Kitchen-1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://elements-cover-images-0.imgix.net/657cc6e3-738a-400b-9f05-e4fb7ac48935?auto=compress%2Cformat&fit=max&w=1370&s=b611da15ad9da8fbe1b27e7e7ae58500" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+</section>
+
+<!-- menu -->
+<section id="menu">
+    <div class="container-fluid ">
+        <div  id="menuitems" class="row">
+            <div class="col-4">
+              <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-auto border-end">
+                <nav class="nav nav-pills flex-column ">
+                  <a class="nav-link" href="#menu">BIRIYANI</a>
+                  <nav class="nav nav-pills flex-column">
+                    <a class="nav-link ms-3 my-1" href="#menu">BEAF BIRIYANI</a>
+                    <a class="nav-link ms-3 my-1" href="#item-1-2">CHICKEN BIRIYANI</a>
+                  </nav>
+                  <a class="nav-link" href="#item-2">FAST FOODS</a>
+                  <nav class="nav nav-pills flex-column">
+                    <a class="nav-link ms-3 my-1" href="#item-2-1">BURGER</a>
+                    <a class="nav-link ms-3 my-1" href="#item-2-2">SANDWITCH</a>
+                  </nav>
+                  <a class="nav-link" href="#item-3">JUICES</a>
+                  <nav class="nav nav-pills flex-column">
+                    <a class="nav-link ms-3 my-1" href="#item-3-1">LIME JUICE</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-2">SHARJAH SHAKE</a>
+                  </nav>
+                </nav>
+              </nav>
+            </div>
+          
+            <div id="idmenu" class="col-8">
+              <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                <div id="menu">
+                <h3>BIRIYANI</h3>
+                  <p class="w-75 text-start d-flex">Biryani is a mixed rice dish originating among the Muslims of South Asia. It is made with spices, vegetables, rice, and usually some type of meat. In some cases without any meat, and sometimes with eggs and potatoes.</p>
+                </div>
+                <div id="menu">
+                  <h5>BEAF BIRIYANI</h5>
+                  <img src="https://img-global.cpcdn.com/recipes/20324a395a0295e5/1200x630cq70/photo.jpg"  class="w-75 img-fluid">
+<div class=" d-flex  gap-2 container-fluid mx-auto mt-3 mb-4">
+                        <button class="btn btn-success" type="button">BUY</button>
+                        <button class="btn btn-danger" type="button">CANCEL</button>
+</div>
+                  </div>
+                </div>
+                <div id="item-1-2">
+                  <h5>CHICKEN BRIYANI</h5>
+                  <img src="https://i.ytimg.com/vi/PVO-4Jnjpfk/maxresdefault.jpg" class="w-75 img-fluid" alt="">
+    <div class=" d-flex  gap-2 container-fluid mx-auto mt-3 mb-4">
+                      <button class="btn btn-success" type="button">BUY</button>
+                      <button class="btn btn-danger" type="button">CANCEL</button>
+    </div>
+                </div><HR></HR>
+                <div id="item-2">
+                  <h3>FAST FOODS</h3>
+                  <p class="w-75 text-start d-flex">Fast food is a type of mass-produced food designed for commercial resale, with a strong priority placed on speed of service. It is a commercial term, limited to food sold in a restaurant or store with frozen, preheated or precooked ingredients and served in packaging for take-out/takeaway.</p>
+                </div>
+                <div id="item-2-1">
+                    <h5>BURGER</h5>
+                    <img src="https://img.onmanorama.com/content/dam/mm/en/travel/chillouts/eatouts/images/burger-kochi/burger-story.jpg" class="w-75 img-fluid" alt="">
+                    <div class=" d-flex  gap-2 container-fluid mx-auto mt-3 mb-4">
+                        <button class="btn btn-success" type="button">BUY</button>
+                        <button class="btn btn-danger" type="button">CANCEL</button>
+      </div>
+                  </div>
+                  <div id="item-2-2">
+                    <h5>SANDWITCH</h5>
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdm3Y6AV3WjCnVmD_8Cv4dUYX6k5I8HZ-8GbCSUf8z3Ksrey2lQ8zVuI4D5Q28ZdPUKShSACo4Ab5yOCXykvAsc9M3a8ixmHvLeORzTpgiCfUJ__6DMKnCL_FZB_imO08H1QkZUPlCKKwUGcsBnrJDBqPYPi689RA30e0UzZx40PENzUvOfm37zEfy/s16000/grilled-chicken-and-cheese-sandwich.jpg" class="w-75 img-fluid" alt="">
+                    <div class=" d-flex  gap-2 container-fluid mx-auto mt-3 mb-4">
+                        <button class="btn btn-success" type="button">BUY</button>
+                        <button class="btn btn-danger" type="button">CANCEL</button>
+      </div>
+                  </div><hr>
+                <div id="item-3">
+                  <h3>JUICES</h3>
+                  <p class="w-75 text-start d-flex">
+                    Juice is a drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables. It can also refer to liquids that are flavored with concentrate or other biological food sources, such as meat or seafood, such as clam juice</p>
+                </div>
+                <div id="item-3-1">
+                  <h5>LIME JUICE</h5>
+                  <img src="https://img.freepik.com/free-photo/icy-mojito-cocktail-with-limes-glass-cup-wooden-plaster-background-side-view_176474-6673.jpg" class="w-75 img-fluid" alt="">
+                  <div class=" d-flex  gap-2 container-fluid mx-auto mt-3 mb-4">
+                    <button class="btn btn-success" type="button">BUY</button>
+                    <button class="btn btn-danger" type="button">CANCEL</button>
+  </div>
+                </div>
+                <div id="item-3-2">
+                  <h5>SHARJA SHAKE</h5>
+                  <img src="https://vaya.in/recipes/wp-content/uploads/2018/02/Sharjah-shake.jpg" class="w-75 img-fluid" alt="">
+                  <div class=" d-flex  gap-2 container-fluid mx-auto mt-3 mb-4">
+                    <button class="btn btn-success" type="button">BUY</button>
+                    <button class="btn btn-danger" type="button">CANCEL</button>
+  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</section>
+
+<!-- details -->
+<section id="details">
+    <div class="container-fluid m-md-4 ms-sm-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-5 col-sm-6 col-xl-4">
+                <div id="detailslist" class="card" style="width: 16rem;">
+                    <img src="https://i0.wp.com/pinklungi.com/wp-content/uploads/2020/09/1200x675-7.png?fit=1200%2C675&ssl=1" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BIRIYANI</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nulla laboriosam eius consequatur corporis tempore non quae minus repellat voluptates.</p>
+                      <a href="#menu" class="btn btn-primary">CLICK HERE</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4 col-md-7 col-sm-6 col-xl-4">
+                <div id="detailslist"  class="card" style="width: 16rem;">
+                    <img src="https://cdn.downtoearth.org.in/library/large/2019-03-05/0.89399200_1551782137_fast1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">FAST FOOD</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nulla laboriosam eius consequatur Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                      <a href="#item-2" class="btn btn-primary">CLICK HERE</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-6 col-xl-4">
+                <div id="detailslist"  class="card" style="width: 16rem;">
+                    <img src="https://www.healthkart.com/connect/wp-content/uploads/2021/11/900x500_banner_HK-Connect_5-Best-Morning-Juices-for-Working-People.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">JUICES</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nulla laboriosam eius consequatur corporis Lorem ipsum.</p>
+                      <a href="#item-3" class="btn btn-primary">CLICK HERE</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- about -->
+<section id="about">
+    <div class="contact-content">
+        <div class="contact-icon">
+            <a href="https://maps.app.goo.gl/KA2ciAeVFrM3po1Q7" target="_blank">
+            <i class="fa-solid fa-map-location"></i>
+            </a>
+
+        </div>
+        <!-- <div class="contact-icon">
+            <a href="https://1.0 404" target="_blank">
+            <i class="fa-brands fa-github"></i>
+            </a>
+        </div> -->
+
+        <div class="contact-icon">
+            <a href="https://1.0 404" target="_blank">
+            <i class="fa-solid fa-phone-volume"></i>
+            </a>
+        </div>
+
+        <div class="contact-icon">
+            <a href="https://wa.me/6282883455" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+
+        <div class="contact-icon">
+            <a href="https://www.instagram.com/_kuttai_ser_/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+
+        <div class="contact-icon">
+            <a href="https://www.facebook.com/profile.php?id=100004141879488" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+            </a>
+        </div>
+        </div>
+    <footer>
+        <p class="mt-5" style="text-align: center;font-weight: lighter;">&copy; My Portfolio Design 2001,All Rights Reserved &reg; Godwin Baiju </p>
+        <div class="up-arrow">
+            <div>
+            <a href="#container">
+            <i class="fa-solid fa-arrow-up fa-2x"></i>
+            </a>
+        </div>
+    </footer>
+</section>
+
+</body>
+</html>
